@@ -51,7 +51,9 @@
     <Reference Include="FontAwesome.Sharp, Version=5.14.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.14.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -70,6 +72,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_DMNoiThat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DMNoiThat.Designer.cs">
+      <DependentUpon>Form_DMNoiThat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_HoaDonNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +93,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DMNoiThat.resx">
+      <DependentUpon>Form_DMNoiThat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_HoaDonNhap.resx">
       <DependentUpon>Form_HoaDonNhap.cs</DependentUpon>
