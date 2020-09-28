@@ -16,5 +16,10 @@ namespace WindowsFormsApp5
         {
             InitializeComponent();
         }
+
+        private void Form_DMNoiThat_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

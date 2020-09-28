@@ -18,7 +18,7 @@ namespace WindowsFormsApp5
         }
         private void iconButton1_Click(object sender, EventArgs e)
         {
-          Form_HoaDonNhap form2 = new Form_HoaDonNhap();
+          Form_DMNoiThat form2 = new Form_DMNoiThat();
            form2.Show();
         }
     }
